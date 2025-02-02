@@ -12,7 +12,7 @@ import { setupSocket } from "./websocket/index.ws.mjs";
 dotenv.config();
 
 // Set the port to the environment variable or 3001
-const port = process.env.PORT ?? 3001;
+const port = process.env.PORT ?? 3002;
 
 // Check if all the necessary environment keys are provided
 const requiredEnvVars = ["MONGO_URL", "GOOGLE_CLIENT_ID", "JWT_SECRET"];
